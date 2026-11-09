@@ -1,0 +1,49 @@
+{
+  "encodings": [
+    {
+      "кодирование": "Target (как на занятии)",
+      "R2 CV (среднее)": 0.8964,
+      "R2 CV (std)": 0.0102
+    },
+    {
+      "кодирование": "OneHot + Ordinal (порядок из занятия)",
+      "R2 CV (среднее)": 0.8964,
+      "R2 CV (std)": 0.0104
+    },
+    {
+      "кодирование": "OneHot + Ordinal (исправленный порядок)",
+      "R2 CV (среднее)": 0.8959,
+      "R2 CV (std)": 0.0103
+    },
+    {
+      "кодирование": "OneHot для всех категорий",
+      "R2 CV (среднее)": 0.8957,
+      "R2 CV (std)": 0.0104
+    }
+  ],
+  "clip": {
+    "n100": 48,
+    "pred_over_100": 5,
+    "r2_raw": 0.896958480463391,
+    "r2_clip": 0.9019086470415751,
+    "rmse_raw": 5.321561242424654,
+    "rmse_clip": 5.1921627801871555
+  },
+  "top_coefs": {
+    "social_media_hours": -3.159,
+    "netflix_hours": -2.415,
+    "diet_quality": -0.31,
+    "parental_education_level": -0.248,
+    "internet_quality": -0.184,
+    "part_time_job_Yes": -0.029,
+    "gender_Male": -0.017,
+    "age": 0.044,
+    "extracurricular_participation_Yes": 0.308,
+    "gender_Other": 0.716,
+    "attendance_percentage": 1.249,
+    "sleep_hours": 2.471,
+    "exercise_frequency": 2.803,
+    "mental_health_rating": 5.591,
+    "study_hours_per_day": 14.109
+  }
+}
